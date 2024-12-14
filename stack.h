@@ -1,6 +1,8 @@
 #ifndef STACK_H
 #define STACK_H
-#include <stdbool.h> 
+#include <stdbool.h>
+
+//202313465 jungyuna
 
 typedef int Item;
 typedef struct stack {

@@ -24,7 +24,7 @@ bool is_empty(Stack * stack)
 
 bool is_full(Stack * stack)
 {
-	return false;
+	return stack->top == stack->size; 
 }
 
 void push(Stack * stack, Item i)
